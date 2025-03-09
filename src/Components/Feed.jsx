@@ -52,12 +52,12 @@ const Feed = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-6">
-        Memes
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 mt-10">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-10">
+      Breaking News: Memes Have Taken Over!
       </h1>
 
-      <div className="columns-2 md:columns-3 lg:columns-4 gap-4 max-w-5xl mx-auto">
+      <div className="columns-2 md:columns-3 lg:columns-4 gap-4 max-w-7xl mx-auto">
         {memes.map((meme) => (
           <div
             key={meme.id}
@@ -66,7 +66,7 @@ const Feed = () => {
             <img
               src={meme.url}
               alt={meme.name}
-              className="w-full object-cover rounded-t-lg transition-opacity duration-300 hover:opacity-80"
+              className="w-full object-cover rounded-t-lg transition-opacity duration-300 "
             />
             <div className="p-3 text-sm font-semibold">{meme.name}</div>
           </div>

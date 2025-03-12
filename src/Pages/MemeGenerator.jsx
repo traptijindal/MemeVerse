@@ -33,7 +33,7 @@ const MemeGenerator = () => {
     <div className="p-6 max-w-lg mx-auto text-center space-y-4">
       <div className="flex items-center gap-4">
       <IoCreateSharp size={30}/>
-      <h1 className="text-3xl font-bold"> Create Your Meme</h1>
+      <h1 className="text-2xl md:text-3xl font-bold"> Create Your Meme</h1>
       </div>
       <label className="cursor-pointer flex items-center gap-2 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
         <FiUpload size={20} />

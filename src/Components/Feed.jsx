@@ -110,12 +110,12 @@ const Feed = () => {
   ))}
 </div>
 <Link
-  to="/upload"
+  to="/generate-meme"
   className="flex items-center gap-2 fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white w-[170px] h-[50px] md:w-[220px] md:h-[70px] px-6 py-3 rounded-lg shadow-lg 
   hover:bg-blue-600 transition text-sm md:text-lg font-semibold z-50"
 >
   <FiUpload size={22} />
-  <span>Upload Meme</span>
+  <span>Generate Meme</span>
 </Link>
 
     </div>
